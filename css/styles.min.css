@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
-/*!
-* Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -474,8 +464,9 @@ mark {
 }
 
 #education p:hover {
-color: #ff9800;
+    color: #ff9800;
 }
+
 .list-unstyled {
     padding-left: 0;
     list-style: none
@@ -489,9 +480,11 @@ color: #ff9800;
 .list-inline-item {
     display: inline-block
 }
+
 .list-inline-item:hover {
     color: #FF9800;
 }
+
 .list-inline-item:not(:last-child) {
     margin-right: .5rem
 }
@@ -599,6 +592,8 @@ pre code {
 }
 
 @media (min-width:576px) {
+    height: 100%;
+    width: 100%;
 
     .container,
     .container-sm {
@@ -607,6 +602,9 @@ pre code {
 }
 
 @media (min-width:768px) {
+        height: 100%;
+    width: 100%;
+
 
     .container,
     .container-md,
@@ -616,6 +614,9 @@ pre code {
 }
 
 @media (min-width:992px) {
+        height: 100%;
+    width: 100%;
+
 
     .container,
     .container-lg,
@@ -626,6 +627,9 @@ pre code {
 }
 
 @media (min-width:1200px) {
+        height: 100%;
+    width: 100%;
+
 
     .container,
     .container-lg,
@@ -10748,7 +10752,8 @@ a.text-info:focus,
 a.text-info:hover {
     color: #0f6674 !important
 }
-.eduu:hover{
+
+.eduu:hover {
     color: #ff9800;
 }
 
